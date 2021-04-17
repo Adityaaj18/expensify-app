@@ -32,9 +32,9 @@ ShallowWrapper {
           </h3>
 </Unknown>,
         <p>
-          234
-           - 
-          0
+          $2.34
+          -
+          January 4th, 1970
 </p>,
       ],
     },
@@ -80,16 +80,16 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            234,
-            " - ",
-            0,
+            "$2.34",
+            "-",
+            "January 4th, 1970",
           ],
         },
         "ref": null,
         "rendered": Array [
-          234,
-          " - ",
-          0,
+          "$2.34",
+          "-",
+          "January 4th, 1970",
         ],
         "type": "p",
       },
@@ -111,9 +111,9 @@ ShallowWrapper {
             </h3>
 </Unknown>,
           <p>
-            234
-             - 
-            0
+            $2.34
+            -
+            January 4th, 1970
 </p>,
         ],
       },
@@ -159,16 +159,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              234,
-              " - ",
-              0,
+              "$2.34",
+              "-",
+              "January 4th, 1970",
             ],
           },
           "ref": null,
           "rendered": Array [
-            234,
-            " - ",
-            0,
+            "$2.34",
+            "-",
+            "January 4th, 1970",
           ],
           "type": "p",
         },
