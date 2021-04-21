@@ -8,15 +8,17 @@ const firebaseConfig = {
     storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
     messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
     // appId: "1:945312948282:web:c7a15331b3fef451e6d503",
-    // measurementId: "G-0XGG82WCM6"
+    // measurementId: "G-0XGG82WCM6"    
 };
 
 firebase.initializeApp(firebaseConfig)
 
 const database = firebase.database()
 
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider()
 
-export { firebase, database as default }
+
+export { firebase, googleAuthProvider, database as default }
 
 // database.ref('expenses')
 //     .on('value',(snapshot) => {
